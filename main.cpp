@@ -2,16 +2,16 @@
 #include <iostream>
 
 int main() {
-    int num_servers, cycles;
+    int total_servers, total_cycles;
 
     std::cout << "Enter number of servers: ";
-    std::cin >> num_servers;
+    std::cin >> total_servers;
     std::cout << "Enter number of clock cycles: ";
-    std::cin >> cycles;
+    std::cin >> total_cycles;
 
-    LoadBalancer lb(num_servers, num_servers * 100);
+    LoadBalancer lb(total_servers, total_servers * 100);
     lb.generateInitialRequests();
-    lb.run(cycles);
+    lb.run(total_cycles);
 
     return 0;
 }

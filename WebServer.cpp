@@ -2,6 +2,7 @@
 
 WebServer::WebServer(int id) : id(id), busy(false), remaining_time(0) {}
 
+
 bool WebServer::isBusy() const {
     return busy;
 }
@@ -13,11 +14,12 @@ void WebServer::assignRequest(const Request& req) {
 }
 
 void WebServer::tick() {
-    if (busy && remaining_time > 0) {
+    if (busy && remaining_time > 0){
         remaining_time--;
         if (remaining_time == 0) {
             busy = false;
         }
+        
     }
 }
 
