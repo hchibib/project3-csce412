@@ -1,11 +1,11 @@
-Enter number of servers: Enter number of clock cycles: Time: 0 | Queue size: 991 | Active servers: 1 1 1 1 1 1 1 1 1 1 
-Time: 1000 | Queue size: 0 | Active servers: 0 0 0 0 0 0 0 0 0 0 
-Time: 2000 | Queue size: 0 | Active servers: 1 0 1 0 0 0 0 0 0 0 
-Time: 3000 | Queue size: 0 | Active servers: 0 1 0 0 0 0 0 0 0 0 
-Time: 4000 | Queue size: 0 | Active servers: 1 0 0 0 1 0 0 0 0 0 
-Time: 5000 | Queue size: 0 | Active servers: 0 1 1 0 0 0 0 0 0 0 
-Time: 6000 | Queue size: 0 | Active servers: 0 1 0 0 0 0 0 0 0 0 
-Time: 7000 | Queue size: 0 | Active servers: 0 0 1 0 0 0 0 0 0 0 
-Time: 8000 | Queue size: 0 | Active servers: 0 0 1 0 0 0 0 0 0 0 
-Time: 9000 | Queue size: 0 | Active servers: 1 0 0 0 0 0 0 0 0 0 
-Time: 10000 | Queue size: 0 | Active servers: 0 1 0 0 0 0 0 0 0 0 
+Enter number of servers: Enter number of clock cycles: Time: 0 | Queue size: 990 | Active servers: 1 1 1 1 1 1 1 1 1 1 
+Time: 1000 | Queue size: 0 | Active servers: 1 0 0 0 0 0 0 0 0 0 
+Time: 2000 | Queue size: 0 | Active servers: 1 0 0 0 0 0 0 0 0 0 
+Time: 3000 | Queue size: 0 | Active servers: 1 0 0 0 0 0 0 0 0 0 
+Time: 4000 | Queue size: 0 | Active servers: 0 0 0 0 0 0 0 0 0 0 
+Time: 5000 | Queue size: 0 | Active servers: 1 0 0 0 0 0 0 0 0 0 
+Time: 6000 | Queue size: 0 | Active servers: 1 0 0 0 0 0 0 0 0 0 
+Time: 7000 | Queue size: 0 | Active servers: 1 1 0 0 0 0 0 0 0 0 
+Time: 8000 | Queue size: 0 | Active servers: 0 0 0 0 0 0 0 0 0 0 
+Time: 9000 | Queue size: 0 | Active servers: 0 0 0 0 0 0 0 0 0 0 
+Time: 10000 | Queue size: 0 | Active servers: 1 0 0 0 0 0 0 0 0 0 
