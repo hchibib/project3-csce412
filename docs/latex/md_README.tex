@@ -1,0 +1,35 @@
+This project simulates a load balancer distributing web requests to backend servers. It models incoming requests in a queue and distributes them to active servers based on availability across a series of clock cycles.\hypertarget{md_README_autotoc_md1}{}\doxysection{How to Compile}\label{md_README_autotoc_md1}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{make}
+
+\end{DoxyCode}
+
+
+This uses the provided Makefile to compile the C++ files and generates an executable named {\ttfamily loadbalancer}.\hypertarget{md_README_autotoc_md2}{}\doxysection{How to Run}\label{md_README_autotoc_md2}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{./loadbalancer}
+
+\end{DoxyCode}
+
+
+You\textquotesingle{}ll be prompted to enter\+:
+\begin{DoxyItemize}
+\item Number of servers
+\item Number of clock cycles
+\end{DoxyItemize}
+
+The program will output queue size and server activity at each 1000-\/cycle interval.\hypertarget{md_README_autotoc_md3}{}\doxysection{Files Included}\label{md_README_autotoc_md3}
+
+\begin{DoxyItemize}
+\item {\ttfamily main.\+cpp} – Entry point of the program
+\item {\ttfamily Load\+Balancer.\+cpp} / {\ttfamily \mbox{\hyperlink{LoadBalancer_8h_source}{Load\+Balancer.\+h}}} – Load balancer logic
+\item {\ttfamily Web\+Server.\+cpp} / {\ttfamily \mbox{\hyperlink{WebServer_8h_source}{Web\+Server.\+h}}} – Web server object and behavior
+\item {\ttfamily Makefile} – Build instructions
+\item {\ttfamily server\+\_\+log.\+txt} – Sample output log from running the simulation
+\item {\ttfamily html/} – Doxygen-\/generated documentation (open {\ttfamily html/index.\+html} in a browser)
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md4}{}\doxysection{Author}\label{md_README_autotoc_md4}
+Henry Chibib ~\newline
+ CSCE 412 – Cloud Computing ~\newline
+ 
